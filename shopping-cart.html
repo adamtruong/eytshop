@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html
+  style="
+    --bs-primary: #332c54;
+    --bs-primary-rgb: 51, 44, 84;
+    --bs-info: #332c54;
+    --bs-info-rgb: 51, 44, 84;
+  "
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Shopping Cart - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html"
+          ><img
+            class="img-fluid"
+            src="assets/img/Pink%20Cute%20Cat%20Pet%20Accessories%20Logo%20(1).svg"
+            width="53"
+            height="53"
+          />&nbsp;EYTshop</a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-1"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <input class="ms-auto" type="search" />
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalog-page.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="shopping-cart.html"
+                >Shopping Cart</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="rounded-circle img-fluid"
+          src="assets/img/avatars/avatar1.jpg"
+          style="width: 100px; height: 100px"
+        />
+      </div>
+    </nav>
+    <main class="page shopping-cart-page">
+      <section class="clean-block clean-cart dark">
+        <div class="container">
+          <div class="block-heading">
+            <h2 class="text-info">Shopping Cart</h2>
+          </div>
+          <div class="content">
+            <div class="row g-0">
+              <div class="col-md-12 col-lg-8">
+                <div class="items">
+                  <div class="product">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-md-3">
+                        <div class="product-image">
+                          <img
+                            class="img-fluid d-block mx-auto image"
+                            src="assets/img/514UsnWydtL.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-5 product-info">
+                        <a
+                          class="product-name"
+                          href="#"
+                          style="color: #332c54; border-color: #332c54"
+                          >Book1</a
+                        >
+                        <div class="product-specs"></div>
+                      </div>
+                      <div class="col-6 col-md-2 quantity">
+                        <label
+                          class="form-label d-none d-md-block"
+                          for="quantity"
+                          >Quantity</label
+                        ><input
+                          type="number"
+                          id="number"
+                          class="form-control quantity-input"
+                          value="1"
+                        />
+                      </div>
+                      <div class="col-6 col-md-2 price"><span>$10</span></div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-md-3">
+                        <div class="product-image">
+                          <img
+                            class="img-fluid d-block mx-auto image"
+                            src="assets/img/51oXpygXDXL.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-5 product-info">
+                        <a
+                          class="product-name"
+                          href="#"
+                          style="
+                            color: #332c54;
+                            border-color: #332c54;
+                            margin-top: 0px;
+                          "
+                          >Book2</a
+                        >
+                        <div class="product-specs"></div>
+                      </div>
+                      <div class="col-6 col-md-2 quantity">
+                        <label
+                          class="form-label d-none d-md-block"
+                          for="quantity"
+                          >Quantity</label
+                        ><input
+                          type="number"
+                          id="number"
+                          class="form-control quantity-input"
+                          value="1"
+                        />
+                      </div>
+                      <div class="col-6 col-md-2 price"><span>$10</span></div>
+                    </div>
+                  </div>
+                  <div class="product"></div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-4">
+                <div class="summary" style="background: #f7f5ff">
+                  <h3>Summary</h3>
+                  <h4 style="border-color: #332c54">
+                    <span class="text">Subtotal</span
+                    ><span class="price">$360</span>
+                  </h4>
+                  <h4>
+                    <span class="text">Discount</span
+                    ><span class="price">$0</span>
+                  </h4>
+                  <h4>
+                    <span class="text">Shipping</span
+                    ><span class="price">$0</span>
+                  </h4>
+                  <h4>
+                    <span class="text" style="color: #332c54">Total</span
+                    ><span
+                      class="price"
+                      style="color: #332c54; font-weight: bold"
+                      >$360</span
+                    >
+                  </h4>
+                  <button
+                    class="btn btn-primary btn-lg d-block w-100"
+                    type="button"
+                    style="background: #332c50; border-color: #332c54"
+                  >
+                    Checkout
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Start: Footer Dark -->
+    <footer class="text-center page-footer dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <a href="about-us.html"><h5>About Us</h5></a>
+            <ul></ul>
+          </div>
+          <div class="col-sm-3">
+            <a href="privacy.html"><h5>Privacy</h5></a>
+            <ul></ul>
+          </div>
+          <div class="col-sm-3">
+            <a href="contact-us.html"><h5>Contact Us</h5></a>
+            <ul></ul>
+          </div>
+          <div class="col-sm-3">
+            <a href="signup-shipper.html"><h5>&nbsp;Shipment page&nbsp;</h5></a
+            ><a href="signup-vendor.html"><h5>Vendor page</h5></a>
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright"><p>© 2022 Copyright EYTshop</p></div>
+    </footer>
+    <!-- End: Footer Dark -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+  </body>
+</html>
