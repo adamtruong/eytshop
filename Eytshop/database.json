@@ -1,0 +1,236 @@
+{
+    "vendor": [
+        {
+            "id": 1,
+            "username": "Light novel Shop",
+            "password": "$2y$10$Gf0a9JIAAo7bPEWBbaa4TOUv\/YHuQyNRHLH44OLEuCsi2nslUt7yi",
+            "business_name": "LN Group",
+            "business_address": "500 Kim Ma, Ba Dinh, Ha Noi"
+        },
+        {
+            "id": 2,
+            "username": "How to get rich",
+            "password": "$2y$10$4uVCzl3hUIXf9PQiyIaHOOLACMkhKssIqnD30x0bHUb18mMHprnea",
+            "business_name": "Tan Hoang Minh Group",
+            "business_address": "69 Tran Duy Hung, Trung Hoa, Cau Giay, Ha Noi"
+        }
+    ],
+    "shipper": [
+        {
+            "id": 1,
+            "username": "Giao hang nhanh",
+            "password": "$2y$10$hIPCP3hqtnDqolbxWvhAu.wbwym5.KNdOxt9qbfYeuLBbqFlnBkvu",
+            "assigned_distribution_hub": "Ha Noi"
+        },
+        {
+            "id": 2,
+            "username": "Giao hang cham",
+            "password": "$2y$10$bfPq3ZW1pPKRe9xG0CYrZuj7KGfGHMXuYHxBRUwqxfVQCE6DXecX2",
+            "assigned_distribution_hub": "Ho Chi Minh"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "username": "Adam",
+            "password": "$2y$10$B8CzKYM7SnRcDjt6VNRQROq9wo21KNvKnDE6iAIVF0MdiC6tVuY22",
+            "full_name": "Truong Adam Nhat Anh",
+            "address": "521 Kim Ma, Ba Dinh, Ha Noi"
+        },
+        {
+            "id": 2,
+            "username": "John",
+            "password": "$2y$10$h3rMAXrM2SkyHjEdaCRY6.J5bbeCpOBExrD2qN9QXNrIuaimzXIdC",
+            "full_name": "Hua Lam Anh",
+            "address": "111 Kim Ma, Ba Dinh, Ha Noi"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "customer": "Adam",
+            "address": "521 Kim Ma, Ba Dinh, Ha Noi",
+            "date_placed": "9\/1\/2020",
+            "assigned_shipper": "Giao hang nhanh",
+            "status": "active",
+            "cart": {
+                "1": {
+                    "product_name": "Rascal Does Not Dream of a Sister Venturing Out - Vol. 8",
+                    "quantity": 1,
+                    "price": 8.59
+                },
+                "2": {
+                    "product_name": "Sword Art Online Progressive - Vol. 1",
+                    "quantity": 2,
+                    "price": 19.98
+                },
+                "3": {
+                    "product_name": "In Another World With My Smartphone - Vol. 26",
+                    "quantity": 3,
+                    "price": 14.97
+                }
+            }
+        },
+        {
+            "id": 2,
+            "customer": "Adam",
+            "address": "521 Kim Ma, Ba Dinh, Ha Noi",
+            "date_placed": "9\/1\/2022",
+            "assigned_shipper": "Giao hang nhanh",
+            "status": "active",
+            "cart": {
+                "1": {
+                    "product_name": "Rascal Does Not Dream of a Sister Venturing Out - Vol. 8",
+                    "quantity": 1,
+                    "price": 8.59
+                },
+                "2": {
+                    "product_name": "Sword Art Online Progressive - Vol. 1",
+                    "quantity": 2,
+                    "price": 19.98
+                },
+                "3": {
+                    "product_name": "In Another World With My Smartphone - Vol. 26",
+                    "quantity": 3,
+                    "price": 14.97
+                }
+            }
+        },
+        {
+            "id": 3,
+            "customer": "Adam",
+            "address": "521 Kim Ma, Ba Dinh, Ha Noi",
+            "date_placed": "9\/3\/2022",
+            "assigned_shipper": "Giao hang nhanh",
+            "status": "active",
+            "cart": {
+                "1": {
+                    "product_name": "Rascal Does Not Dream of a Sister Venturing Out - Vol. 8",
+                    "quantity": 1,
+                    "price": 8.59
+                },
+                "2": {
+                    "product_name": "Sword Art Online Progressive - Vol. 1",
+                    "quantity": 2,
+                    "price": 19.98
+                },
+                "3": {
+                    "product_name": "In Another World With My Smartphone - Vol. 26",
+                    "quantity": 3,
+                    "price": 14.97
+                }
+            }
+        }
+    ],
+    "vendor_submissions": [
+        {
+            "submit_id": 1,
+            "product_name": "In Another World With My Smartphone - Vol. 26",
+            "price": 4.99,
+            "author": "Patora Fuyuhara",
+            "category": "Light Novel",
+            "length": 390,
+            "description": "With eight children in tow,Touya's got no shortage of distractions! But he has a kingdom to run, and he can't let familial fuss keep him away from his civic duties! As issues both domestic and international pile up, how will Touya cope with the burdens of rulership with nearly two handfuls of obstinate offspring to worry about? And what of the wicked devout, who continue their malicious machinations beneath the cover of night? How many new members have they rallied to their cause, and what might they finally unleash upon unsuspecting nations in the far west? Find out in another exciting tale of swords, sorcery, and flashback episodes!",
+            "business_name": "LN Shop"
+        },
+        {
+            "submit_id": 2,
+            "product_name": "Mushoku Tensei: Jobless Reincarnation - Vol. 18",
+            "price": 6.49,
+            "author": "Rifujin na Magonote",
+            "category": "Light Novel",
+            "length": 300,
+            "description": "In the years since Ariel took the throne, Rudeus has been keeping busy carrying out missions for Orsted and even finding time to save an old friend from slave traders. Then a letter arrives from the Doldia Village, seeking his help with the Sacred Beast's shocking disappearance! Can Rudeus explain his unintended dognapping? Or is he about to have yet another diplomatic incident on his hands?",
+            "business_name": "LN Shop"
+        },
+        {
+            "submit_id": 3,
+            "product_name": "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense - Vol. 6",
+            "price": 5.99,
+            "author": "Yuumikon",
+            "category": "Light Novel",
+            "length": 191,
+            "description": "Between easily beating the fifth stratum's secret boss and keeping pace with the best players in the game, Maple continues to demonstrate exactly how broken she is. Unfortunately, things aren't going as smoothly for Sally because the sixth stratum's debut reveals a horror-themed level, meaning it's chock-full of ghosts, geists, and ghouls! Wanting to do something nice for her partner who's too terrified to even step onto the new map, Maple sets out to find presents in the haunted houses and cursed crypts, much to the horror of the admins...",
+            "business_name": "LN Shop"
+        },
+        {
+            "submit_id": 4,
+            "product_name": "Rascal Does Not Dream of a Sister Venturing Out - Vol. 8",
+            "price": 8.59,
+            "author": "Hazime Kamosida",
+            "category": "Light Novel",
+            "length": 192,
+            "description": "After a draining December, Sakuta is quickly nearing the end of his second year of high school. Since Mai is a third-year student, they don't have much time left together before graduation rolls around. Meanwhile, his sister, Kaede, is slowly but steadily venturing outdoors again. Just as she begins to find her footing, she announces her most ambitious goal yet\u2014attending her brother's high school! Sakuta knows better than anyone how difficult this will be for Kaede, and he's ready to support her however he can. He's just not sure if that's what's best for her\u2026or what she really wants\u2026",
+            "business_name": "LN Shop"
+        },
+        {
+            "submit_id": 5,
+            "product_name": "Sword Art Online Progressive - Vol. 1",
+            "price": 9.99,
+            "author": "Reki Kawahara",
+            "category": "Light Novel",
+            "length": 299,
+            "description": "Between easily beating the fifth stratum's secret boss and keeping pace with the best players in the game, Maple continues to demonstrate exactly how broken she is. Unfortunately, things aren't going as smoothly for Sally because the sixth stratum's debut reveals a horror-themed level, meaning it's chock-full of ghosts, geists, and ghouls! Wanting to do something nice for her partner who's too terrified to even step onto the new map, Maple sets out to find presents in the haunted houses and cursed crypts, much to the horror of the admins...",
+            "business_name": "LN Shop"
+        },
+        {
+            "submit_id": 6,
+            "product_name": "Rich Dad Poor Dad",
+            "price": 9.99,
+            "author": "Robert T. Kiyosaki",
+            "category": "Business & Money",
+            "length": 336,
+            "description": "While there is a milestone to honor \u2014 and a new section in the book on Why Milestones Are Important \u2014 maintaining the original content demonstrates that this book has genuinely weathered the test of time. The book's sidebars (which were updated for the 20th anniversary edition) have been updated again, but the core principles that parents and grandparents embraced 25 years ago are now being shared with new generations who have discovered that its timeless wisdom and no-nonsense lessons can be applied to anyone's life and their vision for a future that includes taking control of their finances.\n\nMilestones are celebrated by people from many cultures and regions. We use them to track time, track progress, reflect on lessons gained, and celebrate achievements... They provide purpose to our life's journey. They are a means for us to merge the past, present, and future... looking back at where we started, where we are now, and the hope of what the future can bring.\n\nSo much has changed in our world in the quarter century since Rich Dad Poor Dad was originally published - 25 years since April 8, 1997. But one thing has remained constant: the critical need of financial education. Whether we like it or not, money is still an important part of our lives, and technology has brought both speed and creativity to the realm of money. In an ever-changing environment, we can all grow smarter about money... and learn everything we can to ensure our future.",
+            "business_name": "Tan Hoang Minh Group"
+        },
+        {
+            "submit_id": 7,
+            "product_name": "The Power of One More",
+            "price": 17.62,
+            "author": "Ed Mylett",
+            "category": "Business & Money",
+            "length": 272,
+            "description": "Ed Mylett, a famous keynote speaker and performance specialist, draws on 30 years of experience as an entrepreneur and coach to top athletes, entertainers, and business leaders in The Power of One More to uncover effective tactics to help you live an outstanding \"one more\" life.\n\nIn The Power of One More, you'll:\n\n-Discover why you're closer to your aspirations and objectives than you believe, and how The Power of One More tactics can help you cross the finish line in whichever race you're running.\n-Learn the psychology and science of using The Power of One More in all aspects of your life to solve issues and achieve levels of achievement you never imagined imaginable.\n-Discover time-tested and one-of-a-kind answers to problems that can help you overcome the mental obstacles you've been facing for years.\n\nThe Power of One More is an invaluable roadmap to attaining and exceeding your personal and professional objectives by tapping into the superpowers and abilities you already have inside you. It is ideal for anybody who desires more joy, riches, or better relationships.",
+            "business_name": "Tan Hoang Minh Group"
+        },
+        {
+            "submit_id": 8,
+            "product_name": "Stop Overthinking",
+            "price": 13.99,
+            "author": "Nick Trenton",
+            "category": "Business & Money",
+            "length": 186,
+            "description": "The most common source of misery is overthinking. Don't get caught up in a never-ending mental cycle. Stay in the now and keep your attention off things that don't and never will.\n\nStop Overthinking is a book that knows where you've been, the grueling position you've placed yourself in, and how you become lost in the trap of worry and tension. Nick Trenton, acclaimed author, will guide you through the challenges with thorough and proven ways to help you rewire your brain, regulate your thoughts, and modify your mental habits. Furthermore, the book will teach you scientific methods for radically changing the way you think and feel about yourself by breaking the destructive thinking patterns.\n\nNick Trenton grew up on a farm in rural Illinois and is a true farm kid. Growing up, his dearest pal was his dachshund companion Leonard. Leonard, rest in peace. He eventually made it off the farm, earning a BS in Economics and an MA in Behavioral Psychology.\n\nHow to Recognize and Manage Your Negative Spiral Triggers -How to maintain a focus on relaxation and activity -Tried-and-true ways for overcoming stress attacks-Learn how to cleanse your thoughts and rediscover concentration\n\nThere will be no more self-deprecation. There will be no more restless evenings with rushing thoughts. Stop overthinking and achieve more, feel better, and realize your full potential. Finally, you'll be able to live in the present.",
+            "business_name": "Tan Hoang Minh Group"
+        },
+        {
+            "submit_id": 9,
+            "product_name": "The 7 Habits of Highly Effective People",
+            "price": 12.26,
+            "author": "Stephen R. Covey",
+            "category": "Business & Money",
+            "length": 464,
+            "description": "Millions of individuals have adopted the 7 Habits and incorporate them into their daily lives. Why? Because they are effective!\n\nThe wisdom of the 7 Habits will be renewed for a new generation of leaders with Sean Covey's added lessons on how the habits might be employed in our current world.\n\nThey include:\nHabit 1: Be Proactive\nHabit 2: Begin with the End in Mind\nHabit 3: Put First Things First\nHabit 4: Think Win\/Win\nHabit 5: Seek First to Understand, Then to Be Understood\nHabit 6: Synergize\nHabit 7: Sharpen the Saw\n\nThis well-known classic offers a principle-centered approach to dealing with both personal and professional issues. Stephen R. Covey shows a step-by-step approach for living with justice, integrity, honesty, and human dignity\u2014principles that give us the stability to adapt to change and the knowledge and capacity to capitalize on the possibilities that change provides.",
+            "business_name": "Tan Hoang Minh Group"
+        },
+        {
+            "submit_id": 10,
+            "product_name": "Think and Grow Rich",
+            "price": 7.49,
+            "author": "Napoleon Hill",
+            "category": "Business & Money",
+            "length": 320,
+            "description": "Think and Grow Rich has been referred to be the \"Grandfather of All Motivational Literature.\" It was the first book to address the provocative question, \"What makes a winner?\" Napoleon Hill, the guy who asked and waited for the response, is now regarded as one of the world's greatest victors.\nThe most famous of all success gurus spent \"a fortune and the best part of a lifetime of labor\" developing the \"Law of Success\" theory that underpins his books and is so succinctly described in this one.\n\nHill uses anecdotes from Andrew Carnegie, Thomas Edison, Henry Ford, and other millionaires of his period to illustrate his concepts in the original Think and Grow Rich, published in 1937. Arthur R. Pell, Ph.D., a nationally known author, lecturer, and consultant in human resources management and an expert in applying Hill's thought, deftly interweaves anecdotes of how contemporary millionaires and billionaires, such as Bill Gates, Mary Kay Ash, Dave Thomas, and Sir John Templeton, attained their wealth in the updated version. To avoid stumbling barriers for a new generation of readers, outdated or esoteric vocabulary and examples are carefully revised.",
+            "business_name": "Tan Hoang Minh Group"
+        },
+        {
+            "submit_id": 11,
+            "product_name": "test",
+            "price": "1",
+            "author": "test",
+            "category": "test",
+            "length": "1",
+            "description": "test"
+        }
+    ]
+}
